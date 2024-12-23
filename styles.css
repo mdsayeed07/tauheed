@@ -1,0 +1,204 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #e1e5f2;
+    color: #022b3a;
+}
+
+.urdu {
+    font-family: 'Noto Nastaliq Urdu', sans-serif;
+}
+
+
+/* Header Styling */
+header {
+    background: #022b3a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.cta-btn {
+    background-color: #1f7a8c;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+/* About Section */
+.about {
+    background: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+/* Services Section */
+.services {
+    background-color: #bfdbf7;
+    padding: 50px 20px;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 280px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-card i {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #1f7a8c;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1rem;
+}
+
+.service-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Contact Section */
+.contact {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #022b3a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #022b3a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .service-card {
+        max-width: 99%;
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .cta-btn {
+        padding: 8px 16px;
+    }
+}
+
